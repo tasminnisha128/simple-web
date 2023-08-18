@@ -1,0 +1,544 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    width:vh;
+    background-color: #F9F9FF;
+}
+
+
+/* Navigation Design Starts Here*/
+.navigation-part{
+    display:flex;
+    justify-content: center;
+    gap: 90px;
+    padding-top:60px;
+}
+.sol{
+    padding-left: 70px;
+}
+.navigation-part a{
+    padding:0px 20px;
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+    transition: all ;
+}
+.link:hover{
+    color:#8B8EFF;
+    border-bottom: 2px solid;
+    border-radius: 20px;
+}
+.btn{
+    width:100px;
+    height:45px;
+    background-image: linear-gradient(to bottom right, #818CFE, #9675FF);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+    margin-right: 25px ;
+    color:white;
+
+}
+/* Navigation Design Ends Here*/
+
+
+/* Top Part Design Starts Here*/
+.highlight{
+    color:#5d479e;
+}
+.top-part{
+    display: flex;
+    justify-content: center;
+    padding:40px 20px ;
+    margin: 0%;
+    gap: 200px;
+}
+.top-part h1{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top-part p{
+    font-size:15px;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 0px;
+}
+.gs{
+    font-size:20px;
+    padding:15px;
+    margin-top: 20px;
+    color:#F9F9FF;
+    background-image: linear-gradient(to bottom right, #818CFE, #9675FF);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+
+}
+/* Top Part Design Ends Here*/
+
+
+/* Icons Design Starts Here*/
+.icons-part{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    gap: 250px;
+}
+.icons-part p{
+    font-size:30px;
+}
+.icons-part h2{
+    color:#8B8EFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+}
+/* Icons Design Ends Here*/
+
+
+/*Second Part Design Starts Here*/
+.second-part{
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+.second-part h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom:25px;
+    font-size:40px;
+}
+.success {
+    color: #8B8EFF;
+    text-decoration: underline black solid 2px;
+}
+.second-part p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: rgb(102, 100, 100);
+}
+.learn {
+    border: 0px;
+    background-color: #F9F9FF;
+    cursor:pointer;
+    color:#8B8EFF;
+    font-size: 15px;
+
+}
+/*Second Part Design Ends Here*/
+
+
+/*Third Part Design Starts Here*/
+.third-part{
+    display:flex;
+    padding: 100px 0px;
+    justify-content: center;
+    text-align: center;
+    gap:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.third-part h1{
+    font-size: 25px;
+    padding:20px 0px;
+    margin:0px 10px;
+
+}
+.third-part p{
+    font-size: 16px;
+    padding:15px;
+    color: rgb(105, 104, 104);
+}
+.img2nd{
+    padding-top:100px;
+}
+.third-btn{
+    width:170px;
+    height:50px;
+    background-image: linear-gradient(to bottom right, #7F8FFE, #9675FF);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+    margin-right: 25px ;
+    color: #F9F9FF;
+    padding: 15px;
+
+}
+/*Third Part Design Ends Here*/
+
+
+/*Fourth Part Design Starts Here*/
+.fourth-part{
+    display: flex;
+    align-items: center;
+    margin: 10px 70px;
+    justify-content: center;
+}
+.loner{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:150px;
+    margin-bottom:30px;
+}
+.fourth-left{
+    text-align: right;
+}
+.fourth-right{
+    text-align: left;
+}
+.fourth-mid{
+   padding: 0px 30px;
+}
+.fourth-part h3{
+    padding:15px 0px;
+}
+.fourth-part p{
+    color: rgb(105, 104, 104);
+}
+/*Fourth Part Design Ends Here*/
+
+/*Fifth Part Design Starts Here*/
+.fifth-part{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    gap:90px;
+    justify-content: center;
+}
+.fifth-part h1{
+    padding-bottom: 20px;
+}
+.ul-fifth{
+    list-style-type:none;
+    padding:15px 0px;
+    font-size: 20px;
+    margin-left:15px ;
+}
+
+.contact{
+    background-color: #f3f3f8;
+    padding: 80px;
+    width: 300px;
+    font-size: larger;
+    box-shadow: 7px 9px 20px 1px rgba(0,0,0,0.64);
+-webkit-box-shadow: 7px 9px 20px 1px rgba(0,0,0,0.64);
+-moz-box-shadow: 7px 9px 20px 1px rgba(0,0,0,0.64);
+}
+.fifth-part input{
+    background-color: #E8F0FE;
+    border:none;
+    height:50px;
+    width:300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.fifth-part h1{
+    text-align: center;
+}
+
+.login{
+    width:100px;
+    height:45px;
+    background-image: linear-gradient(to bottom right, #818CFE, #9675FF);
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+    margin-right: 25px ;
+    color:white;
+
+
+}
+/*Fifth Part Design Ends Here*/
+
+
+/*Final Part Design Starts Here*/
+
+.final-part{
+    display:flex;
+    justify-content: center;
+    padding: 70px;
+    gap: 70px;
+    background-color:#f3f3f8 ;
+}
+.final-part h5{
+    padding:18px;
+    color: gray;
+    font-size: 20px;
+}
+.final-part ul{
+    list-style-type:none;
+    padding:10px 0px;
+}
+.ul-final a{
+    color: rgb(66, 66, 66);
+    transition:all;
+    padding:0px 20px;
+    text-decoration: none;
+    transition: all ;
+}
+li{
+    padding:5px 0px;
+}
+.pink:hover{
+    color:none;
+    text-decoration-line: underline;
+}
+
+.final-part h6{
+    padding:5px 0px;
+}
+/*Final Part Design Ends Here*/
+
+/*responsive*/
+@media screen and (max-width: 400px){
+    .navigation-part{
+       display: block;
+        padding-top:40px;
+        font-size: 10px;
+
+    }
+    .sol{
+        display: none;
+    }
+    .navigation-part a{
+        font-size: 10px;
+        padding: 0px;
+    }
+    .link:hover{
+        border-bottom: 1px solid;
+        border-radius: 16px;
+    }
+    .btn{
+        width:45px;
+        height:15px;
+        border-radius: 5px;
+        font-size:10px;
+        margin-right:0px ;
+    }
+/* navigation part response ends */
+
+/* Top Part Design response starts */
+.top-part img{
+    width: 150px;
+    height: 150px;
+    padding-left: 0px;
+    align-items: center;
+    margin: 0px;
+}
+.top-part{
+    padding:20px 10px;
+    gap: 80px;
+    flex-direction: column;
+}
+.top-part h1{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.top-part p{
+    font-size:10px;
+    padding-top: 10px;
+}
+.gs{
+    width:75px;
+    height:25px;
+    font-size:10px;
+    padding: 2px;
+}
+
+/* top part design response ends here */
+
+/* icons design response starts here */
+.icons-part{
+    gap: 45px;
+    flex-direction: column-reverse;
+    padding-top: 10px;
+    border-style: hidden;
+    
+    text-align: justify;
+}
+.icons-part p{
+    font-size:20px;
+    padding-left: 10px;
+}
+.icons-part h2{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.icons-part h4{
+    text-align: justify;
+}
+/* icons  design response ends here */
+
+/* Second Part Design response Starts Here */
+.second-part{
+    justify-content:center;
+    padding-top: 100px;
+    flex-direction: column-reverse;
+}
+.second-part h1{
+    padding-bottom:10px;
+    font-size:20px;
+}
+.success {
+    text-decoration: underline black solid 1px;
+}
+.second-part p{
+    padding: 10px 0px;
+    font-size: 10px;
+}
+.learn {
+    font-size: 10px;
+}
+.second-part img{
+    width: 200px;
+}
+/* Second Part Design response ends Here */
+
+/* third part design response starts here */
+.third-part{
+    display:flex;
+    flex-direction: column-reverse;
+    padding: 100px 0px;
+    text-align: left;
+    gap:10px;
+}
+.third-part h1{
+    font-size: 20px;
+    padding-left: 5px;
+    margin:0px 0px;
+    align-items: center;
+
+}
+.third-part h3{
+    font-size: 15px;
+}
+.third-part p{
+    font-size: 10px;
+    padding:0px;
+}
+.img2nd{
+    padding-top:10px;
+}
+.third-btn{
+    width:100px;
+    height:30px;
+    font-size:10px;
+    padding: 10px;
+
+}
+/* third part design response ends here */
+/* fourth part design response starts here */
+.fourth-part{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px 0px;
+    font-size: 10px;
+    align-items: normal;
+}
+.loner{
+    text-align: left;
+    font-size:20px;
+    margin-top:80px;
+    margin-bottom:30px;
+}
+.fourth-left{
+    text-align: left;
+}
+.fourth-right{
+    text-align: left;
+}
+.fourth-mid{
+   padding-left: 0px;
+}
+.fourth-part h3{
+    padding:10px 0px;
+}
+
+.fourth-part img{
+    width: 150px;
+}
+/* fourth part design response starts here */
+
+/* fifth part design resonse starts here */
+.fifth-part{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    padding-top: 180px;
+    gap:30px;
+}
+.fifth-part img{
+   display: none;
+}
+.fifth-part h1{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+}
+.ul-fifth{
+    padding:10px 0px;
+    font-size: 10px;
+    margin-left:15px ;
+}
+
+.contact{
+    padding: 40px;
+    width: 180px;
+    font-size: 10px;
+}
+.fifth-part input{
+    height:25px;
+    width:150px;
+}
+.fifth-part h1{
+    font-size: 15px;
+}
+
+.login{
+    width:50px;
+    height:20px;
+    font-size:10px;
+}
+/* fifth part design response starts here */
+
+/* final part design response starts here  */
+.final-part{
+    margin-top: 150px;
+    flex-direction:column-reverse ;
+    padding: 30px;
+    gap: 20px;
+}
+.final-part h5{
+    padding:10px;
+    font-size: 10px;
+}
+.final-part ul{
+    padding:0px 0px;
+    font-size: 10px;
+}
+.ul-final a{
+    padding:0px 10px;
+}
+li{
+    padding:2px 0px;
+}
+
+.final-part h6{
+    padding:2px 0px;
+}
+.final-part img{
+    height: 60px;
+}
+/* final part design response ends here  */
+
+
+}
